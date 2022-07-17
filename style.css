@@ -96,7 +96,7 @@ main {
     right: 2px;
 }
 .float-pop {
-    background-color: var(--Pale-Blue);
+    background-color: #fff;
     position: absolute;
     height: 70px;
     width: 180px;
@@ -114,13 +114,13 @@ main {
 .float-pop::after {
     content: "";
     position: absolute;
-    background-color: var(--Pale-Blue);
+    background-color: #fff;
     clip-path: polygon(100% 0, 39% 0, 100% 100%);
     width: 20px;
     height: 20px;
     bottom: 0;
     right: 0;
-    transform: translateY(100%);
+    transform: translateY(99%);
 }
 .float-pop span {
     font-size: 2em;
